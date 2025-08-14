@@ -1,0 +1,48 @@
+@media (max-width: 600px) {
+    body {
+        background-size: cover;
+        padding: 0;
+    }
+    .container {
+        max-width: 98vw;
+        padding: 12px 4vw 16px 4vw;
+        border-radius: 8px;
+    }
+    h1 {
+        font-size: 1.3em;
+        margin-bottom: 12px;
+    }
+    .controls {
+        flex-direction: column;
+        gap: 8px;
+        margin-bottom: 10px;
+    }
+    button, select {
+        font-size: 1em;
+        padding: 7px 0;
+        width: 100%;
+        margin-bottom: 4px;
+    }
+    #sudoku-board {
+        padding: 2px;
+        gap: 1px;
+    }
+    .row {
+        gap: 1px;
+    }
+    .cell {
+        width: 9vw;
+        height: 9vw;
+        min-width: 28px;
+        min-height: 28px;
+        font-size: 1em;
+    }
+    #message {
+        font-size: 1em;
+        margin-top: 6px;
+    }
+    #message .congrats-anim, #message .error-anim {
+        font-size: 1em;
+        padding: 10px 4px;
+    }
+}
