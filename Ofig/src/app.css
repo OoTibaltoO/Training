@@ -1,0 +1,127 @@
+body {
+        font-family: Raleway, sans-serif;
+    }
+
+.app {
+		min-height: 100vh;
+	}
+
+
+header {
+        background-color: #C60000;
+        padding: 5px;
+        display: flex;
+        color: white;
+        position: sticky;
+        top: 0;
+        z-index: 999999;
+        font-size: 0.8em;
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+
+    }
+
+main {
+		/* flex: 1;
+		display: flex;
+		flex-direction: column; */
+		padding: 0 1rem 1rem;
+		width: 100%;
+		max-width: 64rem;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+
+.logo {
+        font-size: 1.5em;
+        font-weight: bold;
+        display: inline;
+    }
+
+.main__title {
+        background-color: #666666;
+        color: white;
+        font-size: 0.8em;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+    }
+
+.main__title-topic {
+        font-style: italic;
+    }
+
+.articles {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        justify-content: center;
+        gap: 20px;
+    }
+
+.article__item {
+        border: 1px solid #CFCFCF;
+        padding: 20px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+.article-item__img {
+        width: 100%;
+        height: 200px;
+        object-fit: contain;
+        margin-bottom: 15px;
+    }
+
+.article__item-opus {
+        text-transform: uppercase;
+        font-size: 0.5em;
+        color: #CFCFCF;
+        gap: 10px;
+        border-bottom: #CFCFCF solid 1px;
+        padding-bottom: 5px;
+    }
+
+.article-item__title {
+        display: flex;
+        font-weight: bold;
+        font-size: 0.8em;
+        margin: 15px 0;
+        justify-content: flex-start;
+    }
+
+.article-item__description {
+        font-size: 0.8em;
+        margin: 20px 0;
+    }
+
+.article-item__button {
+        background-color: #C60000;
+        color: white;
+        font-size: 0.5em;
+        border-radius: 10px;
+        padding: 20px;
+        cursor: pointer;
+        max-width: 100%;
+        align-items: center;
+        margin-top: auto;
+        border: none;
+    }
+
+.footer__container {
+        background-color: #666666;
+        color: white;
+        text-align: center;
+        font-size: 1em;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+    }
