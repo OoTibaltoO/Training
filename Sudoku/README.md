@@ -1,6 +1,6 @@
 # 🧩 Construction logique du fichier sudoku.js
 
-Ce fichier contient tout le code JavaScript pour faire fonctionner le jeu Sudoku dans le navigateur. Voici comment il est construit, étape par étape, avec des mots simples :
+Ce fichier contient tout le code JavaScript pour faire fonctionner le jeu Sudoku dans le navigateur. Voici comment il est construit, étape par étape :
 
 ## 1. 🎲 Génération d'une grille Sudoku
 - On commence par créer une grille vide (81 cases).
@@ -32,3 +32,4 @@ Ce fichier contient tout le code JavaScript pour faire fonctionner le jeu Sudoku
 - Le code est découpé en petites fonctions pour faciliter la lecture et la compréhension.
 
 ---
+
