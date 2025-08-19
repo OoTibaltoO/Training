@@ -1,38 +1,67 @@
-# sv
+# oFig - Boutique en ligne de figurines Final Fantasy
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Bienvenue sur le projet **oFig** !
 
-## Creating a project
+## Présentation du projet
 
-If you're seeing this, you've probably already done this step. Congrats!
+Ce projet est une boutique en ligne fictive dédiée à la vente de figurines et statuettes inspirées de l'univers Final Fantasy. Il permet de gérer un panier, de visualiser les produits, de choisir des options de livraison et de simuler le processus d'achat.
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Pourquoi Svelte ? 🤔
 
-# create a new project in my-app
-npx sv create my-app
+J'ai choisi **Svelte** pour ce projet car :
+
+- Svelte offre une expérience de développement moderne, rapide et réactive ⚡
+- La compilation en amont permet d'obtenir un code léger et performant 🚀
+- La syntaxe est simple et intuitive, idéale pour un projet pédagogique ou une refonte 🧑‍💻
+- Svelte facilite la gestion des états et des composants sans surcharger le code
+
+## Structure du projet 🗂️
+
+```
+Ofig/
+├── index.html
+├── jsconfig.json
+├── package.json
+├── README.md
+├── reset.css
+├── style.css
+├── svelte.config.js
+├── vite.config.js
+├── images/
+│   └── ... (images des figurines)
+├── src/
+│   ├── app.css
+│   ├── app.d.ts
+│   ├── app.html
+│   ├── App.svelte
+│   ├── responsive.css
+│   ├── lib/
+│   │   └── images/
+│   │       └── ... (logos et images Svelte)
+│   ├── routes/
+│   │   ├── +layout.svelte
+│   │   ├── +page.js
+│   │   ├── +page.svelte
+│   │   └── main.js
+├── static/
+│   └── ... (images et fichiers statiques)
 ```
 
-## Developing
+- **src/** : contient le code source principal, les composants Svelte, les styles et les routes
+- **images/** et **static/** : ressources visuelles utilisées dans l'application
+- **lib/** : images et ressources spécifiques à Svelte
+- **routes/** : gestion des pages et de la navigation
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Modifications apportées 🛠️
 
-```bash
-npm run dev
+Ce projet est une adaptation d'un dossier existant :
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- J'ai migré l'architecture vers Svelte pour profiter de ses avantages et de pouvoir tester les fonctionnalités modernes
+- Les styles ont été séparés dans des fichiers CSS dédiés pour plus de clarté
+- La logique du panier et des produits a été réécrite en Svelte
+- Les composants et la structure ont été modernisés
+- Les images et ressources ont été réorganisées pour une meilleure gestion
 
-## Building
+---
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+✨ Ce projet est réalisé dans un but d'apprentissage et de pratique, sans vocation commerciale. ✨
