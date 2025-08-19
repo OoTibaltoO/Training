@@ -4,6 +4,7 @@
 	import { setContext, onMount, tick } from 'svelte';
 	import { browser } from '$app/environment';
 
+	// stores
 	let { stores, page, constructors, components = [], form, data_0 = null, data_1 = null } = $props();
 
 	if (!browser) {
